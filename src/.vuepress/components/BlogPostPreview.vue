@@ -16,7 +16,7 @@ export default {
                 day: 'numeric'
             } 
 
-            return dateFormat.toLocaleDateString('en-US', options)
+            return dateFormat.toLocaleDateString('ca-ES', options)
         }
     }
 }
@@ -27,8 +27,8 @@ export default {
         <time>{{ formatPublishDate }}</time>
         <h3 class="blog-post__title">{{ item.frontmatter.title }}</h3>
         <p v-if="item.frontmatter.excerpt">{{ item.frontmatter.excerpt }}</p>
-        <p v-if="item.readingTime">Estimated time: {{ item.readingTime.text }}</p>
-        <router-link class="button blog-post__button" :to="item.path">Read More ></router-link>
+        <p v-if="item.readingTime">Temps de lectura: {{ item.readingTime.text }}</p>
+        <router-link class="button blog-post__button" :to="item.path">llegir</router-link>
     </section>
 </template>
 
@@ -43,9 +43,9 @@ export default {
 }
 
 .button {
-	border: 1px solid #32c8cf;
+	border: 1px solid #3269cf;
 	border-radius: 4px;
-	color: #32c8cf;
+	color: #3269cf;
 	font-size: 0.8rem;
 	padding: 0.5rem 0.75rem;
 	text-transform: uppercase;

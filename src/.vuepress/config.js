@@ -1,20 +1,20 @@
 const currentDateUTC = new Date().toUTCString()
 
 module.exports = {
-	title: 'My New VuePress Blog',
+	title: 'Creu Alta Bàsquet Sabadell',
 	dest: './public',
 	themeConfig: {
-		repo: 'https://wwww.github.com',
+		repo: 'https://github.com/dsabalete/vuepress-creualta',
 		repoLabel: 'Repo',
 		editLinks: true,
-		editLinkText: 'Found a bug? Help me improve this page!',
+		editLinkText: 'Has trobat algun error? Ajuda\'m a millorar aquesta web!',
 		nav: [
 			{ text: 'Home', link: '/' }, 
 			{ text: 'Blog', link: '/blog/' },
 			{ text: 'Archive', link: '/archive/' },
 			{ text: 'RSS Feed', link: '/rss.xml' }
 		],
-		logo: '/vuepress-blog-logo.png',
+		logo: '/escutca.gif',
 		docsDir: 'src',
 		pageSize: 5,
 		startPage: 0
@@ -30,7 +30,7 @@ module.exports = {
 			'vuepress-plugin-rss',
 			{
 				base_url: '/',
-				site_url: 'https://vuepressblog.org',
+				site_url: 'https://creualtabasquet.cat',
 				filter: frontmatter => frontmatter.date <= new Date(currentDateUTC),
 				count: 20
 			}

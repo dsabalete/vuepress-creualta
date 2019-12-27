@@ -1,10 +1,10 @@
 ---
 title: Home
 home: true
-heroText: Hero
-tagline: Some tagline
-actionText: Go To Github
-actionLink: https://github.com/bencodezen/vuepress-blog-boilerplate
+heroText: Benvinguts! 
+tagline: a la nova web del Creu Alta Bàsquet Sabadell
+actionText: Ves al Blog
+actionLink: blog/
 features:
 - 
     title: Feature 1
@@ -15,5 +15,5 @@ features:
 - 
     title: Feature 3
     details: Feature Details
-footer: This is a footer
+footer: info@creualtabasquet.cat
 ---
