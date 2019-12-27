@@ -2,18 +2,18 @@
 title: Home
 home: true
 heroText: Benvinguts! 
-tagline: a la nova web del Creu Alta Bàsquet Sabadell
-actionText: Ves al Blog
+tagline: Web del Creu Alta Bàsquet Sabadell
+actionText: Vés al Blog
 actionLink: blog/
 features:
 - 
-    title: Feature 1
-    details: Feature Details
+    title: Sobre el Creualta
+    details: A aquesta web trobaràs informació sobre el Creu Alta Bàsquet Sabadell
 - 
-    title: Feature 2
-    details: Feature Details
+    title: Campus de bàsquet
+    details: També hi torbaràs noticies sobre els Campus que es realitzen pel club i enllaços a l'aplicació de matriculació
 - 
-    title: Feature 3
-    details: Feature Details
+    title: Partits del club
+    details: Les dates dels propers partits també es publicaran a aquesta web
 footer: info@creualtabasquet.cat
 ---

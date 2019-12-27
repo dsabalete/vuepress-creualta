@@ -44,7 +44,7 @@
       class="footer"
       v-if="data.footer"
     >
-      {{ data.footer }}
+      contacte: {{ data.footer }} | <a href="/legal/">Avís legal</a>
     </div>
   </div>
 </template>
@@ -77,6 +77,7 @@ export default {
   padding $navbarHeight 2rem 0
   max-width 960px
   margin 0px auto
+  background url(../assets/tothom.jpg) 50% 12% no-repeat
   .hero
     text-align center
     img
@@ -85,13 +86,16 @@ export default {
       margin 3rem auto 1.5rem
     h1
       font-size 3rem
+      color #186ec4
     h1, .description, .action
       margin 1.8rem auto
     .description
       max-width 35rem
       font-size 1.6rem
       line-height 1.3
-      color lighten($textColor, 40%)
+      font-weight bold
+      // color darken(#186ec4, 20%)
+      color white
     .action-button
       display inline-block
       font-size 1.2rem

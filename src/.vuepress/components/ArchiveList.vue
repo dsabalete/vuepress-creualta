@@ -60,8 +60,8 @@ export default {
     filters: {
        // Filter definitions
         monthToLongName(value) {
-            const months = [ "January", "February", "March", "April", "May", "June", 
-           "July", "August", "September", "October", "November", "December" ];
+            const months = [ "Gener", "Febrer", "Març", "Abril", "Maig", "Juny", 
+           "Juliol", "Agost", "Setembre", "Octubre", "Novembre", "Desembre" ];
 
            return months[value]
         }

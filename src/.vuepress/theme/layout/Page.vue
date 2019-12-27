@@ -133,7 +133,7 @@ export default {
       return (
         this.$themeLocaleConfig.editLinkText ||
         this.$site.themeConfig.editLinkText ||
-        `Edit this page`
+        `Modifica aquesta pàgina`
       )
     }
   },

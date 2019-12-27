@@ -90,14 +90,14 @@ export default {
             class="filtered-heading"
         >
             <h2>
-                Filtered by {{ selectedTags.join(',') }}
+                Filtrat per {{ selectedTags.join(',') }}
             </h2>
             <button
                 type="button"
                 @click="resetTags"
                 class="btn clear-filter-btn"
             >
-                Clear filter
+                Neteja filtre
             </button>
         </div>
         <ul class="blog-list">
@@ -121,14 +121,14 @@ export default {
                 class="button--pagination"
                 type="button" 
             >
-                Previous
+                Anterior
             </button>
             <button v-show="currentPage < totalPages - 1"
                 @click="nextPage"
                 class="button--pagination"
                 type="button"
             >
-                Next
+                Següent
             </button>
         </div>
     </div>

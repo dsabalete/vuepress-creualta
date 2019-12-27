@@ -9,10 +9,11 @@ module.exports = {
 		editLinks: true,
 		editLinkText: 'Has trobat algun error? Ajuda\'m a millorar aquesta web!',
 		nav: [
-			{ text: 'Home', link: '/' }, 
+			{ text: 'Inici', link: '/' }, 
 			{ text: 'Blog', link: '/blog/' },
-			{ text: 'Archive', link: '/archive/' },
-			{ text: 'RSS Feed', link: '/rss.xml' }
+			{ text: 'Arxiu', link: '/archive/' },
+			{ text: 'Qui som', link: '/quisom/' },
+			{ text: 'RSS', link: '/rss.xml' },
 		],
 		logo: '/escutca.gif',
 		docsDir: 'src',
